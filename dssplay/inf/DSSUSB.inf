@@ -1,0 +1,95 @@
+; INF file for DSSUSB.sys
+; Portions Copyright (c) 1999, Olympus Optical CO.,LTD.
+
+[Version]
+signature="$CHICAGO$"
+Class=DSSUSB
+ClassGUID={D1A75F46-8386-11D2-A5FF-00A0C921952A} Provider=%DSSUSB.Provider%
+     
+[Manufacturer]
+%DSSUSB.Manufacturer%=DSSUSB
+     
+[ClassInstall32]
+AddReg=DSSUSB.AddClassReg
+     
+[DSSUSB]
+%DSSUSB.DeviceDesc%=DSSUSB.INSTALL, USB\VID_07B4&PID_0200 
+;Vendor ID: 07B4(hex) Olympus Optical CO.,LTD. 
+;Product ID: 0200(hex) USB adaptor RA5 for Digital Voice Recoder
+
+[DSSUSB_EventLog_Inst]
+AddReg=DSSUSB.AddEventLogReg
+     
+[SourceDisksNames]
+1=%DSSUSB.DriverDiskName%,"",1
+     
+[SourceDisksFiles]
+DSSUSB.sys=1
+     
+[PreCopySection]
+HKR,,NoSetupUI,,1
+     
+[DestinationDirs]
+DSSUSB.CopyFiles = 10,system32\drivers ; WINDOWS\SYSTEM32\DRIVERS 
+DSSUSB.CopyFiles2 = 10,system32 ; WINDOWS\SYSTEM32
+DSSUSB.CopyFiles3 = 17
+    
+[DSSUSB.INSTALL]
+CopyFiles=DSSUSB.CopyFiles, DSSUSB.CopyFiles2, DSSUSB.CopyFiles3 
+AddReg=DSSUSB.AddRegLoader
+     
+[DefaultInstall]
+CopyFiles=DSSUSB.CopyFiles, DSSUSB.CopyFiles2, DSSUSB.CopyFiles3 
+AddReg=DSSUSB.AddRegLoader
+     
+[DSSUSB.AddClassReg]
+HKR,,,,%DSSUSB.ClassName%
+     
+[DSSUSB.AddRegLoader]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,DSSUSB.sys
+     
+[DSSUSB.INSTALL.NT]
+CopyFiles=DSSUSB.CopyFiles, DSSUSB.CopyFiles2, DSSUSB.CopyFiles3
+     
+[DSSUSB.INSTALL.NT.Services]
+AddService = DSSUSB,0x00000002,DSSUSB_Service_Inst,DSSUSB_EventLog_Inst
+     
+[DSSUSB_Service_Inst]
+ServiceType     = 1 ;%SERVICE_KERNEL_DRIVER% 
+StartType       = 3 ;%SERVICE_AUTO_START% 
+ErrorControl    = 1 ;%SERVICE_ERROR_NORMAL% 
+ServiceBinary   = %12%\DSSUSB.sys
+DisplayName     = %DSSUSB.DeviceDesc%
+     
+[DSSUSB_EventLog_Inst]
+AddReg=DSSUSB.AddEventLogReg
+     
+[DSSUSB.AddEventLogReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\DSSUSB.sys"
+HKR,,TypesSupported,0x00010001,7
+     
+[DSSUSB.CopyFiles]
+DSSUSB.sys
+     
+[DSSUSB.CopyFiles2]
+DSSUSB.dll
+
+[DSSUSB.CopyFiles3]     
+DSSUSB.inf
+
+;---------------------------------------------------------------;
+     
+[Strings]
+DSSUSB.Provider="OLYMPUS OPTICAL CO.,LTD." 
+DSSUSB.Manufacturer="OLYMPUS OPTICAL CO.,LTD."
+; TODO:  Replace the following with an appropriate description
+;        of this actual device.
+DSSUSB.DeviceDesc="DSSUSB Device"
+; TODO:  Replace the following with an appropriate class name
+;        for this class of device.  
+DSSUSB.ClassName="DSSUSB Device"
+; TODO:  If not installing from a diskette, change the following string
+;        to indicate the source location.
+DSSUSB.DriverDiskName="DSSUSB Device"
+
