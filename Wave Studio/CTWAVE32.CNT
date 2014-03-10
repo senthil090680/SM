@@ -1,0 +1,33 @@
+:Base CTWAVE32.hlp>Main
+1 Creative WaveStudio
+2 Overview
+3 What is WaveStudio?=WhatisWaveStudio.@CTWAVE32.hlp>Main
+2 Working with Wave Files
+3 Specifying Wave Formats=SpecifyingWaveFormats@CTWAVE32.hlp>Main
+3 Opening Wave Files=OpeningWaveFiles@CTWAVE32.hlp>Main
+3 Saving Wave Files=SavingWaveFiles@CTWAVE32.hlp>Main
+3 Mixing Data of Wave Files=MixingDataofWaveFiles@CTWAVE32.hlp>Main
+2 Working with Special Effects
+3 Reverse=Reverse@CTWAVE32.hlp>Main
+3 Add Echo=AddEcho@CTWAVE32.hlp>Main
+3 Invert Waveform=InvertWaveform@CTWAVE32.hlp>Main
+3 Rap!=Rap.@CTWAVE32.hlp>Main
+3 Insert Silence=InsertSilence@CTWAVE32.hlp>Main
+3 Force to Silence=ForcetoSilence@CTWAVE32.hlp>Main
+3 Fade In and Fade Out=FadeInandFadeOut@CTWAVE32.hlp>Main
+3 Swap Channels=SwapChannels@CTWAVE32.hlp>Main
+3 Pan Left to Right and Pan Right to Left=PanLefttoRightandPanRighttoLeft@CTWAVE32.hlp>Main
+3 Phase Shift=PhaseShift@CTWAVE32.hlp>Main
+3 Convert Format=ConvertFormat@CTWAVE32.hlp>Main
+3 Modify Frequency=ModifyFrequency@CTWAVE32.hlp>Main
+3 Amplify Volume=AmplifyVolume@CTWAVE32.hlp>Main
+2 Working with Customizing Colors
+3 Customizing Colors=CustomizingColors@CTWAVE32.hlp>Main
+2 Working with Recording Wave Files
+3 Recording to a New Wave File=RecordingtoaNewWaveFile@CTWAVE32.hlp>Main
+3 Recording Over an Existing File=RecordingOveranExistingFile@CTWAVE32.hlp>Main
+2 Working with Compressed Wave Files
+3 Opening Compressed Wave Files=OpeningCompressedWaveFiles@CTWAVE32.hlp>Main
+3 Editing Compressed Wave Files=EditingCompressedWaveFiles@CTWAVE32.hlp>Main
+2 Glossary of Terms
+3 Glossary of Terms=GlossaryOfTerms.D2H@CTWAVE32.hlp>Main

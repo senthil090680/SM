@@ -1,0 +1,74 @@
+;
+; SONYMSUP.INF  -- install for Sony USB Mass Storage Port Driver
+; Copyright 2000 Sony Corporation
+; Copyright (c) 1998 American Megatrends, Inc.
+;
+
+[Version]
+Signature="$CHICAGO$"
+Class=hdc
+Provider=%SONY%
+DriverVer=09/26/2000,3.03.0926.0
+;CatalogFile=SonyMSUP.cat
+
+[Manufacturer]
+%SONY%=SONY
+
+[SONY]
+%MSGC_US10.DeviceDesc% = MSGC_US10, SonyMSUS\MSGC-US10
+%NW_MS7A.DeviceDesc%   = NW_MS7A,   SonyMSUS\NW-MS7A
+%NW_MS9.DeviceDesc%    = NW_MS9,    SonyMSUS\NW-MS9
+%NHS_MS10.DeviceDesc%  = NHS_MS10,  SonyMSUS\NHS-MS10
+%MSRW_B1.DeviceDesc%   = MSRW_B1,   SonyMSUS\MSRW-B1
+%MS_ICREC.DeviceDesc%  = MS_ICREC,  SonyMSUS\ICD-MS515
+
+[MSGC_US10]
+CopyFiles = SonyMSUP.CopyFiles
+AddReg    = SonyMSUP.AddReg
+
+[NW_MS7A]
+CopyFiles = SonyMSUP.CopyFiles
+AddReg    = SonyMSUP.AddReg
+
+[NW_MS9]
+CopyFiles = SonyMSUP.CopyFiles
+AddReg    = SonyMSUP.AddReg
+
+[NHS_MS10]
+CopyFiles = SonyMSUP.CopyFiles
+AddReg    = SonyMSUP.AddReg
+
+[MSRW_B1]
+CopyFiles = SonyMSUP.CopyFiles
+AddReg    = SonyMSUP.AddReg
+
+[MS_ICREC]
+CopyFiles = SonyMSUP.CopyFiles
+AddReg    = SonyMSUP.AddReg
+
+[SonyMSUP.CopyFiles]
+SonyMSUP.pdr
+
+[SonyMSUP.AddReg]
+HKR,,DriverDesc,,%DriverName%
+HKR,,DevLoader,,*IOS
+HKR,,PortDriver,,SonyMSUP.pdr
+
+[DestinationDirs]
+DefaultDestDir = 12             ; IOSUBSYS directory
+
+[SourceDisksNames]
+1=%DISK1%,,
+
+[SourceDisksFiles]
+SonyMSUP.pdr=1
+
+[Strings]
+SONY="Sony Corporation"
+MSGC_US10.DeviceDesc ="Sony USB Mass Storage Controller"
+NW_MS7A.DeviceDesc   ="Sony USB Mass Storage Controller"
+NW_MS9.DeviceDesc    ="Sony USB Mass Storage Controller"
+NHS_MS10.DeviceDesc  ="Sony USB Mass Storage Controller"
+MSRW_B1.DeviceDesc   ="Sony USB Mass Storage Controller"
+MS_ICREC.DeviceDesc  ="Sony USB Mass Storage Controller"
+DISK1="Sony USB Mass Storage Port Driver Installation Disk"

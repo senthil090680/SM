@@ -1,0 +1,66 @@
+;
+; SonyMSUS.INF  -- install for Sony USB Mass Storage WDM Driver
+; Copyright 2000 Sony Corporation
+; Copyright (c) 1998 American Megatrends, Inc.
+;
+
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+Provider=%SONY%
+DriverVer=09/26/2000,3.03.0926.0
+;CatalogFile=SonyMSUS.cat
+
+[Manufacturer]
+%SONY%=SONY
+
+[SONY]
+%PID_0037.DeviceDesc%=PROTOCOL_CBI, USB\VID_054C&PID_0037
+%PID_0039.DeviceDesc%=PROTOCOL_CBI, USB\VID_054C&PID_0039
+%PID_0046.DeviceDesc%=PROTOCOL_CBI, USB\VID_054C&PID_0046
+%PID_004A.DeviceDesc%=PROTOCOL_CBI,  USB\VID_054C&PID_004A
+%PID_004B.DeviceDesc%=PROTOCOL_CBI,  USB\VID_054C&PID_004B
+%PID_007F.DeviceDesc%=PROTOCOL_CBI,  USB\VID_054C&PID_007F
+
+[PROTOCOL_CB]
+AddReg=COMMON.AddReg,PROTOCOL_CB.AddReg
+CopyFiles=SonyMSUS.CopyFiles
+
+[PROTOCOL_CBI]
+AddReg=COMMON.AddReg,PROTOCOL_CBI.AddReg
+CopyFiles=SonyMSUS.CopyFiles
+
+[DestinationDirs]
+DefaultDestDir=11
+
+[SonyMSUS.CopyFiles]
+SonyMSUS.sys
+
+[COMMON.AddReg]
+HKR,,DevLoader,0,*ntkern
+HKR,,NTMPDriver,,SonyMSUS.sys
+HKR,,DefaultAltInterface,1,00
+HKR,,EnumName,0,SonyMSUS
+;HKR,,"GlobalReset", 0x00010001, 0x00000001
+
+[PROTOCOL_CB.AddReg]
+HKR,,"ProtocolType", 0x00010001, 0x00000001
+
+[PROTOCOL_CBI.AddReg]
+HKR,,"ProtocolType", 0x00010001, 0x00000002
+
+[SourceDisksNames]
+1=%DISK1%,,
+
+[SourceDisksFiles]
+SonyMSUS.sys=1
+
+[Strings]
+SONY="Sony Corporation"
+PID_0037.DeviceDesc="Sony MGMS Reader/Writer"
+PID_0039.DeviceDesc="Sony Network Walkman(MS)"
+PID_0046.DeviceDesc="Sony Network Walkman(MS)"
+PID_004A.DeviceDesc="Sony Memory Stick Hi-Fi System"
+PID_004B.DeviceDesc="Sony Memory Stick Reader/Writer"
+PID_007F.DeviceDesc="Sony IC Recorder (MS)"
+DISK1="Sony USB Mass Storage WDM Driver Installation Disk"

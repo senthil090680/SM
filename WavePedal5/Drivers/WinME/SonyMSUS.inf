@@ -1,0 +1,90 @@
+;
+; SonyMSUS.inf
+;
+; Copyright 2000 Sony Corporation
+;
+
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+ClassGuid={36FC9E60-C465-11CF-8056-444553540000}
+Provider=%PRODUCT_COMPANY%
+LayoutFile=layout.inf, layout1.inf, layout2.inf
+DriverVer=08/18/2000,1.00.0818.0
+; CatalogFile=SonyMSUS.cat
+
+[Manufacturer]
+%PRODUCT_COMPANY%=SonyCorp
+
+[SonyCorp]
+%USB\VID_054C&PID_0037% = MemStickRW,  USB\VID_054C&PID_0037
+%USB\VID_054C&PID_0039% = MsWalkman7A, USB\VID_054C&PID_0039
+%USB\VID_054C&PID_0046% = MsWalkman9,  USB\VID_054C&PID_0046
+%USB\VID_054C&PID_004A% = MsHiFiSys,   USB\VID_054C&PID_004A
+%USB\VID_054C&PID_004B% = MsKiosk,     USB\VID_054C&PID_004B
+%USB\VID_054C&PID_007F% = MsICRec,     USB\VID_054C&PID_007F
+
+[MemStickRW]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI
+
+[MemStickRW.HW]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI.HW
+
+[MsWalkman7A]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI
+
+[MsWalkman7A.HW]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI.HW
+
+[MsWalkman9]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI
+
+[MsWalkman9.HW]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI.HW
+
+[MsHiFiSys]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI
+
+[MsHiFiSys.HW]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI.HW
+
+[MsKiosk]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI
+
+[MsKiosk.HW]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI.HW
+
+[MsICRec]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI
+
+[MsICRec.HW]
+Include   = usbstor.inf
+Needs     = USBSTOR_CBI.HW
+
+[SourceDisksNames]
+1="%PRODUCT_SERVICE% %SOURCEDISK_DESC%","",1
+
+[SourceDisksFiles]
+SonyMSUS.INF = 1,,,,,
+
+[Strings]
+PRODUCT_COMPANY = "Sony Corporation"
+PRODUCT_SERVICE = "USB Memory Stick Slot driver"
+SOURCEDISK_DESC = "Source Disk #1"
+USB\VID_054C&PID_0037 = "Sony MGMS Reader/Writer"
+USB\VID_054C&PID_0039 = "Sony Network Walkman (MS)"
+USB\VID_054C&PID_0046 = "Sony Network Walkman (MS)"
+USB\VID_054C&PID_004A = "Sony Memory Stick Hi-Fi System"
+USB\VID_054C&PID_004B = "Sony Memory Stick Reader/Writer"
+USB\VID_054C&PID_007F = "Sony IC Recorder (MS)"

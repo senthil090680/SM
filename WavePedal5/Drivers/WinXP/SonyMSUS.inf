@@ -1,0 +1,56 @@
+;
+; SonyMSUS.INF
+;
+; Copyright 2000-2002 Sony Corporation
+;
+
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+ClassGuid={36FC9E60-C465-11CF-8056-444553540000}
+Provider=%PRODUCT_COMPANY%
+DriverVer=01/21/2002,1.00.0818.0
+CatalogFile=SonyMSUS.cat
+
+[Manufacturer]
+%PRODUCT_COMPANY%=SonyCorp
+
+[SonyCorp]
+%MS_ICREC_DEVDESC% = MsICRec,     USB\VID_054C&PID_007F
+
+[MsICRec.NT]
+Include = usbstor.inf
+Needs   = USBSTOR_CBI.NT
+CopyFiles = MemoryStickCopyFiles
+
+[MsICRec.NT.Services]
+Include = usbstor.inf
+Needs   = USBSTOR_CBI.NT.Services
+
+[MsICRec.NT.HW]
+Addreg = MemoryStickReg
+
+[MemoryStickReg]
+HKR,,DeviceGroup,,"MemoryStick"
+HKLM,%DeviceGroups%\MemoryStick,Icons,0x00010000," %SystemRoot%\snymsico.dll,0"
+HKLM,%DeviceGroups%\MemoryStick-MG,Icons,0x00010000," %SystemRoot%\snymsico.dll,1"
+HKLM,%DeviceGroups%\MemoryStick,NoSoftEject,0x00010001,"00000001"
+HKLM,%DeviceGroups%\MemoryStick-MG,NoSoftEject,0x00010001,"00000001"
+
+[MemoryStickCopyFiles]
+snymsico.dll
+
+[DestinationDirs]
+MemoryStickCopyFiles=10 
+
+[SourceDisksNames]
+1="%SOURCEDISK_DESC%",,,
+
+[SourceDisksFiles]
+snymsico.dll = 1,,,,,
+
+[Strings]
+DeviceGroups="Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers\DeviceGroups"
+PRODUCT_COMPANY = "Sony Corporation"
+SOURCEDISK_DESC = "USB Memory Stick Slot driver Source Disk #1"
+MS_ICREC_DEVDESC = "Sony IC Recorder (MS)"

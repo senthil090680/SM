@@ -1,0 +1,20 @@
+:Base 16contw.hlp>main
+:Title Creative Audio Software
+:Index Creative Remote=remote32.hlp
+:Index Creative CD=ctcd32.hlp
+:Index Creative MIDI=ctmidi32.hlp
+:Index Creative Mixer=ctmix32.hlp
+:Index Creative Remote=remote32.hlp
+:Index Creative Soundo'LE=sndole32.hlp
+:Index Creative Wave=ctwav32.hlp
+:Index Creative WaveStudio=ctwave32.hlp
+:Index Creative WaveSynth=wavsyn.hlp
+1 Overview=Overview>main
+:include remote32.cnt
+:include ctcd32.cnt
+:include ctwav32.cnt
+:include ctmidi32.cnt
+:include ctmix32.cnt
+:include sndole32.cnt
+:include ctwave32.cnt
+:include wavsyn.cnt
