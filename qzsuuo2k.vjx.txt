@@ -1,0 +1,65 @@
+﻿commited
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   Stedman's Latest/GI_GU_Words/SGIG20/Wsetup32.EXE
+#	new file:   Stedman's Latest/GI_GU_Words/SGIG20/sgig.bok
+#	new file:   Stedman's Latest/Merriam-Webster/AUTORUN.INF
+#	new file:   Stedman's Latest/Merriam-Webster/Books/Cthes/cthes.cmp
+#	new file:   Stedman's Latest/Merriam-Webster/Books/Cthes/cthes.ndx
+#	new file:   Stedman's Latest/Merriam-Webster/Books/c11/art.cmp
+#	new file:   Stedman's Latest/Merriam-Webster/Books/c11/art.ndx
+#	new file:   Stedman's Latest/Merriam-Webster/Books/c11/c11.cmp
+#	new file:   Stedman's Latest/Merriam-Webster/Books/c11/c11.ndx
+#	new file:   Stedman's Latest/Merriam-Webster/Books/c11/table.cmp
+#	new file:   Stedman's Latest/Merriam-Webster/Books/c11/table.ndx
+#	new file:   Stedman's Latest/Merriam-Webster/Fonts/mwextreg.ttf
+#	new file:   Stedman's Latest/Merriam-Webster/Fonts/mwipareg.ttf
+#	new file:   Stedman's Latest/Merriam-Webster/Fonts/mwreg.ttf
+#	new file:   Stedman's Latest/Merriam-Webster/Fonts/mwspecia.ttf
+#	new file:   Stedman's Latest/Merriam-Webster/Macros/MWeb_Word2000.exe
+#	new file:   Stedman's Latest/Merriam-Webster/Macros/MWeb_Word95.exe
+#	new file:   Stedman's Latest/Merriam-Webster/Macros/MWeb_Word97.exe
+#	new file:   Stedman's Latest/Merriam-Webster/Macros/MWeb_WordXP.exe
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster.pdf
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/C11.dct
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/Collegiate Dictionary Explanatory Notes.pdf
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/Collegiate Thesaurus Explanatory Notes.pdf
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/Cthes.dct
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/MWebCD.HLP
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/Merriam-Webster.exe
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/adobe acrobat installer.exe
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/bookmark.mw
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/goonline.mw
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/guide.pdf
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/license.txt
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/msvcirt.dll
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/msvcrt.dll
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/pref.mw
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/readme.txt
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/splash.bmp
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/xnmba510.dll
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/xnmhb510.dll
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/xnmhn510.dll
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/xnmpr510.dll
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/xnmr70mt.dll
+#	new file:   Stedman's Latest/Merriam-Webster/Merriam-Webster/xnmte510.dll
+#	new file:   Stedman's Latest/Merriam-Webster/Setup.exe
+#	new file:   Stedman's Latest/Merriam-Webster/Setup.ini
+#	new file:   Stedman's Latest/Merriam-Webster/data1.cab
+#	new file:   Stedman's Latest/Merriam-Webster/data1.hdr
+#	new file:   Stedman's Latest/Merriam-Webster/data2.cab
+#	new file:   Stedman's Latest/Merriam-Webster/ikernel.ex_
+#	new file:   Stedman's Latest/Merriam-Webster/layout.bin
+#	new file:   Stedman's Latest/Merriam-Webster/mw.ico
+#	new file:   Stedman's Latest/Merriam-Webster/setup.bmp
+#	new file:   Stedman's Latest/Merriam-Webster/setup.inx
+#	new file:   Stedman's Latest/OBGYN_Pediatric_Words/SOBG10/Wsetup32.EXE
+#	new file:   Stedman's Latest/OBGYN_Pediatric_Words/SOBG10/sobg.bok
+#	deleted:    dp24gsxg.gim.txt
+#	deleted:    h2bcvkwt.u5l.txt
+#
+
