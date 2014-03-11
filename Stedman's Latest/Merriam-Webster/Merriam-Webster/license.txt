@@ -1,0 +1,111 @@
+=========================================================
+                   License Agreement
+=========================================================
+
+MERRIAM-WEBSTER END USER LICENSE AGREEMENT. THIS
+LICENSE AGREEMENT ("LICENSE") GOVERNS YOUR USE OF THE
+COMPUTER PROGRAM AND REFERENCE CONTENT ON THIS DISC
+(COLLECTIVELY, THE "WORK"). INSTALLATION OF THE WORK ON
+YOUR COMPUTER CONSTITUTES YOUR ACCEPTANCE OF THESE TERMS.
+IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE,
+DISCONTINUE INSTALLATION AND PROMPTLY RETURN THE UNUSED DISC
+AND ACCOMPANYING MATERIALS IN THE ORIGINAL PACKAGE, ALONG
+WITH PROOF OF PAYMENT, TO THE LOCATION WHERE YOU OBTAINED
+THEM FOR A REFUND.
+
+1. Ownership.  This is a License and not a "sale" of the
+WORK.  You own only the disc on which the WORK is fixed.
+Merriam-Webster, Incorporated ("Merriam") retains title to
+the WORK and all copies, regardless of form.
+
+2. License Grant.  Merriam grants you a non-exclusive right
+to use this copy, and only this copy, of the WORK on a
+single computer at a single location.  All rights not
+expressly granted to you are reserved to Merriam.
+
+3. Copyright and Restrictions.  The WORK and the accompanying
+printed materials are copyrighted.  Copying the WORK or
+the printed materials is expressly prohibited, except you may
+either make one copy for backup or archival purposes or
+install the WORK or a portion thereof on the hard drive of a
+single computer, keeping the original for backup or archival
+purposes.  You may also print short excerpts from the WORK,
+such as a definition, for your personal use.  You may transfer
+the WORK from one computer to another, provided that the WORK
+is installed on only one computer at any one time.  You may
+not provide access to the WORK via a network system or modify,
+adapt, translate, reverse engineer, decompile, disassemble, or
+create derivative works based on the WORK or printed materials.
+
+4. Transfer of License.  You may not rent or lease the WORK,
+but you may transfer your rights under this License on a
+permanent basis, provided you transfer the disc containing the
+WORK and all accompanying printed materials, retaining no
+copies.  The transferee's use of the WORK constitutes
+acceptance of the terms of this License.
+
+5. Termination of License.  This License will automatically
+terminate, without notice from Merriam, if you fail to comply
+with any of its terms. Upon termination, you shall immediately
+destroy or return to Merriam all copies of the WORK and the
+accompanying printed materials and remove the WORK from any
+electronic equipment under your control.
+
+6. Export.  You may not export or re-export the WORK except
+in full compliance with all U.S. and foreign laws and
+regulations and the terms of this License.
+
+7. U.S. Government Restricted Rights.  Use, duplication or
+disclosure of the WORK by the Government is subject to
+restrictions as set forth in subparagraphs (a) through (d) of
+the Commercial Computer - Restricted Rights clause at
+FAR 52.227-19 when applicable, or in subparagraph (C)(1)(ii)
+of the Rights in Technical Data and Computer Software clause
+at DFARS 252.227-7013, and in similar clauses in the NASA FAR
+Supplement. Contractor is Merriam-Webster, Incorporated
+(see address below).
+
+8. Limited Warranty and Disclaimer. Merriam warrants that the
+disc media on which the WORK is furnished will be free from
+defects in materials and workmanship under normal use for
+90 days from the date you acquired it from Merriam or its
+authorized representative.  Merriam will, at its option,
+refund the amount you paid or repair or replace any defective
+disc, provided you return the defective disc to Merriam or an
+authorized representative (at your expense) with a copy of
+your receipt within such 90-day period.  This warranty is
+void if failure of the disc has resulted from accident,
+abuse, or misapplication. Any replacement disc will be
+warranted for the remainder of the original warranty period.
+
+THE FOREGOING WARRANTIES ARE IN LIEU OF ALL OTHER
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE. MERRIAM'S LIABILITY 
+FOR DIRECT DAMAGES ARISING FROM YOUR USE OF THE WORK
+SHALL BE LIMITED TO THE AMOUNT YOU PAID FOR IT.  MERRIAM
+SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF, OR
+INABILITY TO USE, THE WORK, EVEN IF MERRIAM WAS PREVIOUSLY
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR ANY OTHER
+CLAIM. SOME STATES DO NOT ALLOW LIMITATIONS ON THE LENGTH
+OF AN IMPLIED WARRANTY OR THE EXCLUSION OR LIMITATION OF
+INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE
+LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU.  THIS
+WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY
+ALSO HAVE OTHER RIGHTS WHICH VARY FROM STATE TO STATE.
+
+This License and the foregoing Limited Warranty and
+Disclaimer are governed by the laws of Massachusetts.
+All warranty matters should be addressed to: 
+
+Merriam-Webster, Incorporated
+47 Federal Street
+P.O. Box 281
+Springfield, MA 01102  
+
+Jurisdiction. The federal and state courts located
+in the Commonwealth of Massachusetts shall have exclusive
+jurisdiction over any dispute between you and Merriam
+arising out of this Agreement or pertaining to the subject 
+matter hereof.

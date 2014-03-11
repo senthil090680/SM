@@ -1,0 +1,46 @@
+; This is a comment line
+ref_name=Merriam-Webster's Collegiate Thesaurus
+art_dir=.\books\cthes\
+art_name=art
+table_name=table
+base_name=cthes
+base_dir=.\books\cthes\
+table_dir=.\books\cthes\
+help_dir=
+sound_dir=.\books\cthes\
+bookmarkicon_dir=
+refimage_dir=
+sound_exist=0
+art_exist=1
+go_online_url=http://www.merriam-webstercollegiate.com
+
+;Search text section. Order in this file is order of display.
+;search_text=<display text>,<function>
+;Modify display text may be modified.
+;Comment out unwanted sections with a semicolon at begining of 
+;line. (like this line)
+search_text=Entry word is...,va
+search_text=Function label is...,fl
+search_text=Thesaurus word lists contain...,df
+search_text=Verbal illustration contains...,vi
+
+;Displayable paragraphs. Order in this file is order of display.
+;<paragraph>=<display title>,<formating>
+;In the following example, the main_entry paragraph will 
+;be displayed with a title of "Word", and a new line and tab
+;will precede it.
+;main_entry=Word,\n\t
+;Comment out unwanted sections with a semicolon at begining of 
+;line. (like this line)
+main_entry=Main Entry:,
+pron_entry=Pronunciation:,
+variant_entry=Variant:,
+function_entry=Function:,
+inflected_entry=Inflected Form:,
+usage_entry=Usage:,
+etymology_entry=Etymology:,
+date_entry=Date:,
+text_entry=,
+art_entry=Art:,
+
+;This is the last line of the file. line of the file.

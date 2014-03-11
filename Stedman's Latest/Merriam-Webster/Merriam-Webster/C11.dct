@@ -1,0 +1,57 @@
+; This is a comment line
+ref_name=Merriam-Webster's 11th Collegiate Dictionary 
+art_dir=.\books\c11\
+art_name=art
+table_name=table
+base_name=c11
+base_dir=.\books\c11\
+table_dir=.\books\c11\
+help_dir=
+sound_dir=.\books\c11\
+bookmarkicon_dir=
+refimage_dir=
+sound_exist=0
+art_exist=1
+go_online_url=http://www.merriam-webstercollegiate.com
+
+;Search text section. Order in this file is order of display.
+;search_text=<display text>,<function>
+;Modify display text may be modified.
+;Comment out unwanted sections with a semicolon at begining of 
+;line. (like this line)
+search_text=Entry word is...,va
+search_text=Defining text contains...,df
+search_text=Rhymes with...,rh
+search_text=Forms a crossword of...,va
+search_text=Is a cryptogram of...,is
+search_text=Is a jumble of...,tr
+search_text=Homophones are...,pr
+search_text=Etymology includes...,et
+search_text=Date is...,dt
+search_text=Verbal illustration contains...,vi
+search_text=Author quoted is...,aq
+search_text=Function label is...,fl
+search_text=Synonymy paragraph contains...,sy
+search_text=Usage paragraph contains...,us
+search_text=Usage note contains...,sl
+
+;Displayable paragraphs. Order in this file is order of display.
+;<paragraph>=<display title>,<formating>
+;In the following example, the main_entry paragraph will 
+;be displayed with a title of "Word", and a new line and tab
+;will precede it.
+;main_entry=Word,\n\t
+;Comment out unwanted sections with a semicolon at begining of 
+;line. (like this line)
+main_entry=Main Entry:,
+pron_entry=Pronunciation:,
+variant_entry=Variant:,
+function_entry=Function:,
+inflected_entry=Inflected Form:,
+usage_entry=Usage:,
+etymology_entry=Etymology:,
+date_entry=Date:,
+text_entry=,
+art_entry=Art:,
+
+;This is the last line of the file.
